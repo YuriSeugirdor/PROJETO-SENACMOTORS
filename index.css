@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+/*menu nav*/
+nav{background-color: black;
+}
+
+a{
+    font-size: 2.0em;
+    /*border: ridge 0.5px white;*/
+    margin-left: 20px;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+/* Centralizando menu */
+#navbar {
+    display: flex !important;
+    justify-content: center !important;
+  }
+/*Logo do menu*/
+  img#logo{
+    width:50px; height:50px;
+  }
+
+  nav#navbar a{
+    color: #6E6E6E;/*cor das letras do nav */
+    text-decoration:none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+  }
+  nav#navbar a:hover{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+footer{
+background-color:black;
+
+}
+
+
+/*CARDS HOME*/
+
+/*links dos Cards*/
+div.card-deck a{
+font-size: 25px;
+font-weight: bold;
+color: black;
+text-align:left;
+
+}
+
+
+
+/*LOGIN*/
+
+button#BotaoEntrarLogin{
+  background-color: black;
+  border-color: black;
+}
+
+button#BotaoEntrarLogin:active{
+  background-color: black;
+  border-color: black;
+  margin-top: 5px;
+}
+
+p.cadastro{
+  font-size: 1.5em;
+  margin-bottom: -20px;
+}
+
+a#cadastro{
+  font-size: 1.0em;
+  margin-left: -1px;
+
+}
+
+p.senha{
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: -35px;
+  margin-top: 5px;
+}
+
+p.recuperar{
+margin-top: -2px;
+margin-bottom: -15px;
+}
+
+a#recuperar{
+  font-size: 16px;
+  margin-left: -1px;
+}
